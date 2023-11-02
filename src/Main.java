@@ -10,10 +10,10 @@ public class Main {
         System.out.println("auto familiar " + familiar1.getMarca());
 
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Escribe el radio del circulo:");
+        System.out.println("Escribe el radio del círculo:");
         double radio = Double.parseDouble(entrada.nextLine());
         System.out.println("El área del circulo es: " + miCirculo.calcularArea(radio));
-        System.out.println("La circunferencia del circulo es: " + miCirculo.calcularCircunferencia(radio));
+        System.out.println("La circunferencia del círculo es: " + miCirculo.calcularCircunferencia(radio));
 
 
 
