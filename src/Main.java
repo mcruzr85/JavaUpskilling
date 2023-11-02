@@ -11,10 +11,11 @@ public class Main {
 
         Scanner entrada = new Scanner(System.in);
         System.out.println("Escribe el radio del círculo:");
-        double radio = Double.parseDouble(entrada.nextLine());
+       // double radio = Double.parseDouble(entrada.nextLine());
+        double radio = entrada.nextDouble();
         System.out.println("El área del circulo es: " + miCirculo.calcularArea(radio));
         System.out.println("La circunferencia del círculo es: " + miCirculo.calcularCircunferencia(radio));
-
+         entrada.close();
 
 
 
